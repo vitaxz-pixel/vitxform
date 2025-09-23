@@ -1,9 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Test Page</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Adults Only</title>
+<style>
+/* Reset some default styles */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+background: linear-gradient(135deg, #1e1e2f, #2c003e);
+color: #f5f5f5;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+text-align: center;
+}
+
+.container {
+background: rgba(255, 255, 255, 0.05);
+padding: 40px;
+border-radius: 12px;
+box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+max-width: 500px;
+}
+
+h1 {
+font-size: 2.5rem;
+margin-bottom: 20px;
+color: #ff4c60;
+text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+}
+
+p {
+margin-bottom: 15px;
+font-size: 1rem;
+line-height: 1.6;
+color: #e0e0e0;
+}
+
+button {
+background: #ff4c60;
+color: #fff;
+border: none;
+padding: 12px 25px;
+border-radius: 8px;
+font-size: 1rem;
+font-weight: bold;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+
+button:hover {
+background: #ff1f3d;
+transform: translateY(-2px);
+box-shadow: 0 6px 15px rgba(255, 76, 96, 0.4);
+}
+</style>
 </head>
 <body>
-<h1>Hello, GitHub Pages is working!</h1>
+<h1>🔞 Adults Only</h1>
+<p>This website contains adult content and is intended for individuals 18 years or older.</p>
+<p>By clicking "Enter", you confirm you are at least 18 years old.</p>
+<link rel="stylesheet" href="../css/style.css" />
+<button onclick="window.location.href='main.html'">Enter</button>
 </body>
 </html>
